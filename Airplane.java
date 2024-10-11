@@ -7,6 +7,7 @@ public class Airplane
 
   public Airplane(String cs, double dist, int dir, int alt)
   {
+    
     distance = Math.abs(dist);
     direction = dir % 360;
     altitude = Math.abs(alt);
